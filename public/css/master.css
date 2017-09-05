@@ -1,0 +1,59 @@
+h1 {
+    background: #b3c2bf;
+    color:white;
+    font-size: 35px;
+    text-align: center;
+    padding:30px;
+    font-family: sans-serif;
+}
+
+h4 {
+    color:grey;
+    font-size: 20px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+h2 {
+    color:grey;
+    font-size: 14px;
+    
+}
+
+input[type=text] {
+    padding:10px;
+    width: 200px;
+    margin: 5px;
+}
+
+button {
+    padding: 10px;
+    margin:5px;
+    background: #a8b6bf;
+    color:white;
+    font-size: 14px;
+}
+
+nav a {
+    text-decoration: none;
+    text-align: : center;
+    margin:10px;
+    color:#9fa8a3;
+    font-family: sans-serif;
+}
+
+form {
+    width: 500px;
+    height: 500px;
+    border: lightgrey;
+    margin-left: 200px;
+    margin-top: 10px;
+    font-family: sans-serif;
+}
+
+label {
+    color: #b56969;
+    font-family: sans-serif;
+
+
+}

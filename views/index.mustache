@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title> Code</title>
+        <link rel="stylesheet" href="/css/master.css">
+
+    </head>
+
+    <header>
+        <h1> Code Snippet world </h1>
+        <h4> sumbit your awesome code here!</h4>
+        <nav>
+            <a href="/">Home</a>
+            <a href="/login">Login</a>
+            <a href="/register">Register</a>
+
+
+            <a href="/post">Post</a>
+            {{^user}}
+            <a href="/logout">Log out</a>
+            {{/user}}
+            <a href="/edit">Edit</a>
+
+
+        </nav>
+    </header>
+    <body>
+   <div class="">
+       <h2> {{addcode}}</h2>
+       <h3> {{title}}</h3>
+
+       {{#addcode}}
+       <a href="/addcode/{{_id}}">{{name}}</a>
+
+
+   </div>
+   <div class="">
+       <h4> Language</h4>
+       <a href="/addcode/{{language}}"> {{language}} </a>
+   </div>
+   <div class="">
+       <h4> Tag </h4
+        <a href="/addcode/{{tag}}"> {{tag}} </a>
+   </div>
+    {{/addcode}}
+
+    </body>
+</html>

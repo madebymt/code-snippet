@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title> Register</title>
+        <link rel="stylesheet" href="/css/master.css">
+    </head>
+    <header>
+        <h1>Edit your post</h1>
+
+    <nav>
+        <a href="/edit">Edit</a>
+        <a href="/delete">Delete</a>
+    </nav>
+</header>
+    <body>
+        <div class="">
+            <form class="post" action="/addcode/:id/edit" method="post">
+                <div class="">
+                   <label for="name"> Title</label>
+                   <input type="text" name="title" value="{{user.name}}">
+                </div>
+                <div class="">
+                    <label for="language"> Language </label>
+                    <input type="text" name="language" value="{{user.language}}">
+                </div>
+
+                <div class="">
+                    <label for="code_snippet"> code snippet </label>
+                    <textarea name="code" value= "{{user.snippet}}" rows="8" cols="80"></textarea>
+                </div>
+
+                <div class="">
+                    <label for="tag"> tag </label>
+                </div>
+                    <div class="">
+                        <textarea name="code" value= "{{user.snippet}}" rows="8" cols="80"></textarea>
+                    </div>
+
+                    <button type="submit" name="button"> Subimit your post</button>
+
+            </form>
+
+        </div>
+
+    </body>
+</html>
